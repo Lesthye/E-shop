@@ -1,0 +1,112 @@
+body {
+  font-family: Poppins, sans-serif;
+  background-color: rgb(247, 241, 230);
+}
+
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 1.8rem;
+  width: 1.8em;
+  color: #333;
+}
+
+.icon-mobile-nav[name=close-outline] {
+  display: none;
+}
+
+.nav-logo {
+  color: #2f9e44;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 375px) {
+  .nav-text {
+    height: 21px;
+    color: rgb(82, 81, 81);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.8rem;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.02em;
+    color: #121212;
+  }
+  hr {
+    border-top: 0.1px solid rgb(173, 170, 170);
+    /* width: 100vw; */
+  }
+  .nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 56px;
+    margin: 0 15px;
+  }
+  .nav-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+  }
+  .btn-mobile-nav {
+    display: block;
+  }
+  .main-nav {
+    background-color: rgba(255, 255, 255, 0.97);
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+  .nav-open .icon-mobile-nav[name=close-outline] {
+    display: block;
+  }
+  .nav-open .icon-mobile-nav[name=menu-outline] {
+    display: none;
+  }
+  .main-nav-list {
+    flex-direction: column;
+    gap: 2.8rem;
+  }
+  .main-nav-link:link,
+.main-nav-link:visited {
+    font-size: 3rem;
+  }
+  .quote {
+    width: 80%;
+    margin: 40px auto;
+    text-align: center;
+  }
+  .quote h2 {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .quote p {
+    font-size: 0.8rem;
+    font-style: italic;
+  }
+}/*# sourceMappingURL=styles.css.map */
