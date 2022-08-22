@@ -29,20 +29,17 @@
 </head>
 
 <body>
+
 <?php include("header.php");
+      include("section-book.php");
       include("footer.php");
 ?>
     
  <!-- /* BOOKS SECTION */ -->
 
- <div class="container-books">
-    <div class="quote">
-        <h2>
-        Outside of a dog, a book is a man's best friend.
-        </h2>
-        <p>Groucho Marx</p>
-    </div>
- </div>
+
+    
+ 
 </body>
 
 </html>
