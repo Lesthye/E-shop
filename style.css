@@ -15,7 +15,7 @@
 
  *{
     font-family: 'Poppins';
-    margin:0; padding:0;
+    margin:0 auto; padding:0;
     box-sizing: border-box;
     outline: none; border:none;
     text-decoration: none;
@@ -43,13 +43,13 @@
  
  .footer .box-container .box h3{
     color:var(--light-black);
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     padding-bottom: 2rem;
  }
  
  .footer .box-container .box a{
     color:var(--light-black);
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding-bottom: 1.5rem;
     display: block;
  }
