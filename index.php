@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,22 +13,37 @@
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
+<script src="js/script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 
-<?php
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+    <title>Book.smart</title>
+</head>
+
+<body>
+<?php include("header.php")
 include("footer.php")
 ?>
-<script src="js/script.js"></script>
-
-
-
-
-
-
-
-
-
     
+ <!-- /* BOOKS SECTION */ -->
+
+ <div class="container-books">
+    <div class="quote">
+        <h2>
+        Outside of a dog, a book is a man's best friend.
+        </h2>
+        <p>Groucho Marx</p>
+    </div>
+ </div>
 </body>
+
 </html>
+
