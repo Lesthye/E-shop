@@ -29,8 +29,8 @@
 </head>
 
 <body>
-<?php include("header.php")
-include("footer.php")
+<?php include("header.php");
+      include("footer.php");
 ?>
     
  <!-- /* BOOKS SECTION */ -->
