@@ -1,6 +1,6 @@
 body {
   font-family: Poppins, sans-serif;
-  background-color: rgb(247, 241, 230);
+  background-color: rgb(248, 247, 244);
 }
 
 .btn-mobile-nav {
@@ -8,6 +8,7 @@ body {
   background: none;
   cursor: pointer;
   display: none;
+
 }
 
 .icon-mobile-nav {
@@ -98,7 +99,7 @@ body {
   }
   .quote {
     width: 80%;
-    margin: 40px auto;
+    margin: 0px auto;
     text-align: center;
   }
   .quote h2 {
@@ -111,39 +112,62 @@ body {
   }
 }
 
+
+
 .search_container {
-  overflow: hidden;
-  margin: 0 !important;
+  height: 900px;
+  width: 80%;
+  margin: 4rem auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
 }
 
-.search_container img {
-  width: 100%;
-  height: 100%;
+.search-container--small {
+  width:80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 15rem;
 }
+
+.search-container--small h2 {
+  font-size: 2.2rem;
+  text-align: center;
+}
+
+.search-img img{
+  width: 550px;
+  height: 700px;
+  border-radius: 8px;
+  margin-top: 2rem;
+}
+
 
 .search_button {
-  position: absolute;
-  bottom: 52%;
-  left: 30%;
-  font-size: 16px;
-  padding: 2px 12px;
+  margin-top: 4rem;
+  font-size: 1.6rem;
+  padding: 0.6rem 1.2rem;
   background-color: transparent;
-  border:2px solid whitesmoke;
+  border: 2px solid #2f9e44;
   cursor: pointer;
   border-radius: 5px;
+  justify-content: flex-start;
+
 }
 
 .search_button:hover {
-  background-color: whitesmoke;
+  background-color:aquamarine
 }
 
-.book_search{
+/* .book_search{
   position: absolute; 
   text-align: center;
   font-size: 3.5rem;
   top: 10%; 
   width: 90%; 
-}
+} */
 
 /* MODAL WINDOW */
 .modal {
