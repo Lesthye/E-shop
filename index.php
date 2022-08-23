@@ -24,16 +24,12 @@
 
 <body>
 
-    <?php include("header.php");
-    include("section-search-books.php");
-    include("section-book.php");
-    include("footer.php");
-    
-
-    ?>
-
-    <!-- /* BOOKS SECTION */ -->
-
+<?php include("header.php");
+ include("section-search-books.php");
+      include("section-book.php");
+      include("testimonials.php");
+      include("footer.php");
+?>
 
 </body>
 
