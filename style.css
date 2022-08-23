@@ -1,16 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap');
 
 :root {
-    --main-color: #07462a;
-    --black: #222;
+    --main-color: #2f9e44;
+    --black: #black;
     --white: #fff;
-    --light-black: #777;
-    --light-white: #fff9;
-    --dark-bg: rgba(0, 0, 0, .7);
-    --light-bg: #eee;
-    --border: .1rem solid var(--black);
-    --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
-    --text-shadow: 0 1.5rem 3rem rgba(0, 0, 0, .3);
+    --light-black: #333;
 }
 
 * {
@@ -23,17 +17,26 @@
     text-transform: capitalize;
 }
 
+/* 
 .footer {
-    background: url(images/img_footer.jpg) no-repeat;
-    background-size: auto;
+    /* background: url(images/img_footer.jpg) no-repeat; */
+    /* background-size: auto;
     background-position: center;
+    background-color: #f1f3f5; */
+
+
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+    margin: 40px 0;
 }
 
-.footer .box-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    gap: 3rem;
+.box {
+    padding: 40px 0;
+
     padding: 0 5rem;
+
 }
 
 .footer .box-container .box h3 {
@@ -60,6 +63,9 @@
     padding-right: 2rem;
 }
 
+
+.credit {
+
 .footer .box-container .box form input[type="email"] {
     width: 60%;
     padding: .3rem .8rem;
@@ -84,10 +90,9 @@
 
 .footer .credit {
     text-align: center;
-    padding-top: 3rem;
-    margin-top: 3rem;
-    border-top: .1rem solid var(--light-black);
-    font-size: 2rem;
+    margin: 3rem auto;
+    
+    font-size: 1.4rem;
     color: var(--light-black);
 }
 
