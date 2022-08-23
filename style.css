@@ -15,7 +15,6 @@
 
 * {
     font-family: 'Poppins';
-    margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
     outline: none;
@@ -34,6 +33,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     gap: 3rem;
+    padding: 0 5rem;
 }
 
 .footer .box-container .box h3 {
@@ -55,9 +55,32 @@
     transition: .2s linear;
 }
 
+
 .footer .box-container .box a:hover i {
     padding-right: 2rem;
 }
+
+.footer .box-container .box form input[type="email"] {
+    width: 60%;
+    padding: .3rem .8rem;
+    font-size: 1rem;
+    color: #222;
+    margin: 1rem 0;
+    text-transform: none;
+    border: var(--border);
+  }
+
+.footer .box-container .btn{
+    padding: .3rem .8rem;
+    background: var(--main-color);
+    color: var(--white);
+}
+  
+
+.footer .box-container .box .payment {
+    width: 30%;
+    margin-top: 2rem;
+  }
 
 .footer .credit {
     text-align: center;
