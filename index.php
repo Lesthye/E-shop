@@ -23,14 +23,16 @@
 
 <body>
 
-<?php include("header.php");
- include("section-search-books.php");
-      include("section-book.php");
-      include("testimonials.php");
-      include("footer.php");
-?>
+    <?php include("header.php");
+    // include("login.php"); <--login.php-->
+    //include("register.php"); <--register.php-->
+    include("section-search-books.php");
+    include("section-book.php");
+    include("testimonials.php");
+    include("footer.php");
+    ?>
 
-<script src="script.js"></script>
+    <script src="script.js"></script>
 
 </body>
 
