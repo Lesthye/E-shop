@@ -37,6 +37,17 @@
       <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
    </div>
 
+<div class="box newsletter">
+   <h3>newsletter</h3>
+   <p>subscribe for latest updates</p>
+      <form action="">
+         <input type="email" placeholder="enter your email">
+         <input type="submit" value="subscribe" class="btn">
+      </form>
+      <img src="images/payment.png" class="payment" alt="">
+</div>
+
+
 </div>
 
 <div class="credit"> created by <span>Lasma Elvira Alise</span> | all rights reserved </div>
