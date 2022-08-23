@@ -22,9 +22,12 @@
 <body>
 <?php include("header.php") ?>
 <?php include("section-book.php") ?>
+<?php include("testimonials.php") ?>
+
+
 
     
- 
+<script defer src="script.js"> </script>
 </body>
 
 </html>
