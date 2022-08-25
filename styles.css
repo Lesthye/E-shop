@@ -262,4 +262,22 @@ body {
   background-image: var(--gradient-primary);
 }
 
+h2 span {
+  display: block;
+  font-size: 1.5rem;
+  position: relative;
+  z-index: -10;
+}
+
+h2 span::before {
+  content: ' ';
+  position: absolute;
+  width: 9em;
+  background: #2f9e44;
+  height: .5em;
+  bottom: 0;
+  z-index: -1;
+  margin-left: -.3em;
+}
+
 /*# sourceMappingURL=styles.css.map */
